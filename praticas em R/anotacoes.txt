@@ -1,0 +1,18 @@
+O RStudio é dividido em 4 partes:
+- Scripts
+- Console
+- Ambiente: 
+    - O ambiente é o local onde mostra as váriaveis utilizadas
+- Gráficos:
+    - Pode dar zoom, extrair, visulizar os pacotes, etc...
+
+Pacotes populares do RStudio:
+- Dplyr: manipulação de dados
+- Devtools: desenvolvimento (criação de projetos)
+- Foreign: importar dados de outras ferramentas (SAS, SPSS, etc)
+- Ggplot2: visualização de dados
+
+Instalação de pacote por linha de comando:
+- Install.packages("nome do pacote", dependencies=True)
+- Seleciona o Espelho do CRAN e aguarda o download
+- Verifica a imagem de instalação ou eventual problema

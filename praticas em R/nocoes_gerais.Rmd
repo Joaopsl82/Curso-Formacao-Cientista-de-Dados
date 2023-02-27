@@ -1,0 +1,24 @@
+````{r}
+install.packages("e1071")
+library(e1071)
+```
+
+
+```{r}
+#descarregar pacote
+detach("package:e1071", unload = TRUE)
+#remover pacote
+remove.packages("e1071")
+```
+
+```{r}
+# ctrl + shift + i = cria um bloco de código
+# ctrl + shift + enter = execute o bloco de código
+```
+
+```{r}
+plot(iris[,1:4])
+print("R")
+iris2 = iris
+```
+

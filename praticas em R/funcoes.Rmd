@@ -1,0 +1,10 @@
+Funções
+```{r}
+getwd()
+sd #função sd = retorna o desvio padrão, pode usar sem os parenteses
+head(x=iris, n=2)
+head(iris)
+head(iris, 2)
+head(n=22)
+```
+

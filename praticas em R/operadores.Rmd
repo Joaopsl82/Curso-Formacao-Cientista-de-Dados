@@ -1,0 +1,46 @@
+Tipos de dados e operadores
+```{r}
+delta = 8 #declaração implicita de númerico
+class(delta)
+```
+
+L declara como inteiro
+```{r}
+delta = 8L #declaração de número inteiro
+class(delta)
+```
+
+Outros tipos
+```{r}
+logico = TRUE
+logico = F #também posso abreviar usando T ou F sempre em maiúsculo
+caractere = "Texto"
+caractere = 'Texto'
+class(logico)
+class(caractere)
+```
+
+Operações Matemáticas
+```{r}
+c = 2
+d = 4
+(c + d) * d
+e = (c + d) * d
+e
+```
+
+Testes lógicos
+```{r}
+a = 1
+b = 2
+a < b
+a == b
+```
+
+Raiz Quadrada
+```{r}
+sqrt(2500)
+```
+
+
+

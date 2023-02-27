@@ -1,0 +1,6 @@
+Ajuda
+```{r}
+help(sd) #inserir dentro dos parenteses o nome da função
+head(iris) #colocar o cursos por cima e teclar f1 também aciona o ajuda
+```
+

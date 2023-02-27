@@ -1,0 +1,15 @@
+Pacotes
+```{r}
+install.packages("e1071") # comando para instalar pacotes
+library(e1071) # não precisa usar as aspas
+```
+
+```{r}
+detach("package:e1071", unload = TRUE) #descarrega o pacote da memória
+remove.packages("e1071") # remove o pacote
+```
+
+```{r}
+plot(iris[,1:4])
+```
+

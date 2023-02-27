@@ -1,0 +1,21 @@
+Importanto dados
+```{r}
+install.packages('xlsx')
+library(xlsx)
+```
+
+Texto
+```{r}
+#Texto
+x = read.csv(file.choose(), header = TRUE, sep = ',')
+x
+x = read.csv("Credit.csv", header = TRUE, sep = ",")
+x
+```
+
+Excel
+```{r}
+dados = read.xlsx("Credit.xlsx", sheetIndex = 1) #sheetIndex = qual planilha quer importar
+dados
+```
+
